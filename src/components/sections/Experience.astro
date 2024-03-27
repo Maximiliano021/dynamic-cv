@@ -1,0 +1,42 @@
+---
+import Section from "../Section.astro"
+const { work, title } = Astro.props;
+---
+
+<Section title={title}>
+  <ul class="flex gap-8 flex-col">
+    {
+      work.map(
+        ({ name, startDate, endDate, position, summary, url }) => {
+          const startYear = new Date(startDate).getFullYear()
+          const endYear =
+            endDate != null ? new Date(endDate).getFullYear() : "Actual"
+          const years = `${startYear} - ${endYear}`
+
+          return (
+            <li>
+              <article>
+                <header class="flex justify-between items-start">
+                  <div>
+                    <h3 class="font-medium text-lg tracking-wider">
+                      <a class="hover:underline font-bold" href={url} title={`Ver ${name}`} target="_blank">
+                        {name}
+                      </a>
+                    </h3>
+                    <h4 class="font-medium text-sm tracking-widest mb-1">{position}</h4>
+                  </div>
+
+                  <time class="text-sm min-w-28 text-slate-600 text-right">{years}</time>
+                </header>
+
+                <footer>
+                  <p class="text-sm">{summary}</p>
+                </footer>
+              </article>
+            </li>
+          )
+        }
+      )
+    }
+  </ul>
+</Section>

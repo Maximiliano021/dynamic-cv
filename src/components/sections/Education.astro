@@ -1,0 +1,38 @@
+---
+import Section from "../Section.astro"
+const { education, title } = Astro.props;
+---
+
+<Section title={title}>
+  <ul class="flex gap-8 flex-col">
+    {
+      education.map(({ institution, startDate, endDate, area, url }) => {
+        const startYear = new Date(startDate).getFullYear()
+        const endYear = endDate != null ? new Date(endDate).getFullYear() : "Actual"
+        const years = startYear == null ? endYear : `${startYear} - ${endYear}`
+        
+        return (
+          <li>
+            <article>
+              <header class="flex justify-between items-start	mb-0.5">
+                <div>
+                  <h3>
+                    <a class="font-semibold hover:underline" href={url} title={`Ver ${institution}`} target="_blank">
+                        {institution}
+                      </a>
+                  </h3>
+                </div>
+
+                <time class="text-sm min-w-28 text-slate-600 text-right">{years}</time>
+              </header>
+
+              <footer>
+                <p>{area}</p>
+              </footer>
+            </article>
+          </li>
+        )
+      })
+    }
+  </ul>
+</Section>

@@ -1,0 +1,210 @@
+{
+  "cv": {
+    "lang": "es",
+    "basics": {
+      "name": "Maximiliano Escudero",
+      "label": "Desarrollador FullStack y estudiante de Ingenieria Informatica",
+      "image": "/me.webp",
+      "email": "escuderomaximiliano@gmail.com",
+      "phone": "+5491131546485",
+      "url": "https://linkedin.com/in/escuderomaximiliano",
+      "summary": "Dedicado al desarrollo web como también al desarrollo de aplicaciones móviles. Vivo en Buenos Aires, Argentina. He trabajado siendo freelancer como Front-end, hasta creando arquitectura Back-end para un servicio de repartidores.",
+      "location": {
+        "city": "Buenos Aires",
+        "countryCode": "AR",
+        "region": "Argentina"
+      },
+      "profiles": [
+        {
+          "network": "LinkedIn",
+          "username": "escuderomaximiliano",
+          "url": "https://linkedin.com/in/escuderomaximiliano"
+        },
+        {
+          "network": "GitHub",
+          "username": "Maximiliano021",
+          "url": "https://github.com/Maximiliano021"
+        }
+      ]
+    },
+    "work": [
+      {
+        "name": "FK-Tech",
+        "position": "Backend Developer",
+        "url": "https://www.fktech.net/es/",
+        "startDate": "2023-06-15",
+        "endDate": null,
+        "summary": "Desarrollé un monitor de operaciones en tiempo real y una API para consumir los datos de los repartidores, clientes y órdenes. Implemente la gestión a todos los usuarios backoffice con la facilidad de agregar repartidores y nuevos usuarios a su plataforma de una forma rápida y sencilla."
+      }
+    ],
+    "education": [
+      {
+        "institution": "Universidad Nacional de La Matanza",
+        "url": "https://www.unlam.edu.ar/",
+        "area": "Ingeniero en Informatica",
+        "studyType": "Universidad",
+        "startDate": "2020-01-01"
+      },
+      {
+        "institution": "Amazon Web Service - AWS",
+        "url": "https://www.credly.com/badges/17e2d032-c366-4363-99ab-4f96a51ca97c/linked_in_profile",
+        "area": "AWS Cloud Practitioner",
+        "studyType": "Certificado",
+        "startDate": "2022-02-01",
+        "endDate": "2023-03-02"
+      },
+      {
+        "institution": "Coderhouse",
+        "url": "https://www.coderhouse.com/ar/certificados/633c82490a4b1f000e6803f5",
+        "area": "Desarrollador Frontend",
+        "studyType": "Certificado",
+        "startDate": "2022-02-01",
+        "endDate": "2022-12-01"
+      },
+      {
+        "institution": "Argentina Programa",
+        "url": "https://www.argentina.gob.ar/economia/conocimiento/argentina-programa/",
+        "area": "Desarrollador Full Stack",
+        "studyType": "Diplomatura",
+        "startDate": "2022-02-01",
+        "endDate": "2022-12-01"
+      }
+    ],
+    "awards": [
+      {
+        "title": "Award",
+        "date": "2014-11-01",
+        "awarder": "Company",
+        "summary": "There is no spoon."
+      }
+    ],
+    "certificates": [
+      {
+        "name": "Certificate",
+        "date": "2021-11-07",
+        "issuer": "Company",
+        "url": "https://certificate.com"
+      }
+    ],
+    "publications": [
+      {
+        "name": "Publication",
+        "publisher": "Company",
+        "releaseDate": "2014-10-01",
+        "url": "https://publication.com",
+        "summary": "Description…"
+      }
+    ],
+    "skills": [
+      {
+        "name": "HTML",
+        "level": "Master",
+        "keywords": ["Desarrollo Web", "Frontend"]
+      },
+      {
+        "name": "CSS",
+        "level": "Master",
+        "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
+      },
+      {
+        "name": "JavaScript",
+        "level": "Master",
+        "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+      },
+      {
+        "name": "Tailwind",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web",
+          "Frontend",
+          "CSS Framework",
+          "Diseño Responsive"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web",
+          "Frontend",
+          "Backend",
+          "JavaScript Superset"
+        ]
+      },
+      {
+        "name": "Node",
+        "level": "Avanzado",
+        "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+      },
+      {
+        "name": "Postgres",
+        "level": "Avanzado",
+        "keywords": [
+          "Bases de Datos",
+          "SQL",
+          "Almacenamiento de Datos",
+          "Backend"
+        ]
+      },
+      {
+        "name": "Git",
+        "level": "Avanzado",
+        "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
+      },
+      {
+        "name": "GitHub",
+        "level": "Avanzado",
+        "keywords": [
+          "Control de Versiones",
+          "Colaboración",
+          "Código Fuente",
+          "Git"
+        ]
+      },
+      {
+        "name": "Next.js",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web",
+          "Frontend",
+          "React Framework",
+          "SSR",
+          "Static Generation"
+        ]
+      },
+      {
+        "name": "React",
+        "level": "Avanzado",
+        "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+      }
+    ],
+    "languages": [
+      {
+        "language": "Spanish",
+        "fluency": "Native speaker"
+      },
+      {
+        "language": "English",
+        "fluency": "Medium"
+      }
+    ],
+    "projects": [
+      {
+        "name": "Apple-Store",
+        "isActive": false,
+        "description": "Concepto de tienda online de productos Apple",
+        "highlights": ["Tienda moderna", "Experiencia de usuario"],
+        "url": "https://maximiliano021.github.io/Apple-Store/",
+        "github": "https://github.com/Maximiliano021/Apple-Store"
+      },
+      {
+        "name": "Pro Gamer",
+        "isActive": false,
+        "description": "Tienda de videojuegos en linea",
+        "highlights": ["Tienda dinamica", "Juegos por categoria"],
+        "url": "https://progamer-omega.vercel.app/",
+        "github": "https://github.com/Maximiliano021/ProGamer"
+      }
+    ]
+  }
+}

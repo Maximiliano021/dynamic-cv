@@ -1,0 +1,27 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import About from "../../components/sections/About.astro";
+import Education from "../../components/sections/Education.astro";
+import Experience from "../../components/sections/Experience.astro";
+import Projects from "../../components/sections/Projects.astro";
+import Hero from "../../components/sections/Hero.astro";
+import CommandMenu from "../../components/CommandMenu.astro";
+import { cv } from '../../../cv-en.json';
+import Skills from "../../components/sections/Skills.astro";
+import LanguageSwitcher from "../../components/LanguageSwitcher.astro";
+const { lang, basics: { name } } = cv;
+---
+
+<Layout title={`Portfolio of ${name}`} basics={cv.basics} lang={lang}>
+  <main class="p-6 m-auto w-full md:p-10">
+    <LanguageSwitcher lang={lang}/>
+    <Hero basics={cv.basics}/>
+    <About title="About me" basics={cv.basics} />
+    <Experience title="Experience" work={cv.work}/>
+    <Education title="Education" education={cv.education}/>
+    <Projects title="Projects" projects={cv.projects}/>
+    <Skills title="Skills" skills={cv.skills}/>
+  </main>
+
+  <CommandMenu lang={lang} profiles={cv.basics.profiles}/>
+</Layout>

@@ -1,0 +1,200 @@
+{
+  "cv": {
+    "lang": "en",
+    "basics": {
+      "name": "Maximiliano Escudero",
+      "label": "FullStack Developer and Computer Engineering student",
+      "image": "/me.webp",
+      "email": "escuderomaximiliano@gmail.com",
+      "phone": "+5401131546485",
+      "url": "https://linkedin.com/in/escuderomaximiliano",
+      "summary": "Dedicated to web development as well as mobile application development. I live in Buenos Aires, Argentina. I have worked as a freelancer as Front-end, even creating Back-end architecture for a delivery service.",
+      "location": {
+        "city": "Buenos Aires",
+        "countryCode": "AR",
+        "region": "Argentina"
+      },
+      "profiles": [
+        {
+          "network": "LinkedIn",
+          "username": "escuderomaximiliano",
+          "url": "https://linkedin.com/in/escuderomaximiliano"
+        },
+        {
+          "network": "GitHub",
+          "username": "Maximiliano021",
+          "url": "https://github.com/Maximiliano021"
+        }
+      ]
+    },
+    "work": [
+      {
+        "name": "FK-Tech",
+        "position": "Backend Developer",
+        "url": "https://www.fktech.net/es/",
+        "startDate": "2023-06-15",
+        "endDate": null,
+        "summary": "I developed a real-time operations monitor and API to consume data from delivery drivers, customers and orders. Deploy management to all backoffice users with the facility to add carriers and new users to your platform quickly and easily."
+      }
+    ],
+    "education": [
+      {
+        "institution": "National University of La Matanza",
+        "url": "https://www.unlam.edu.ar/",
+        "area": "Computer Engineer",
+        "studyType": "Universidad",
+        "startDate": "2020-01-01"
+      },
+      {
+        "institution": "Amazon Web Service - AWS",
+        "url": "https://www.credly.com/badges/17e2d032-c366-4363-99ab-4f96a51ca97c/linked_in_profile",
+        "area": "AWS Cloud Practitioner",
+        "studyType": "Certificate",
+        "startDate": "2022-02-01",
+        "endDate": "2023-03-02"
+      },
+      {
+        "institution": "Coderhouse",
+        "url": "https://www.coderhouse.com/ar/certificados/633c82490a4b1f000e6803f5",
+        "area": "Front-end developer",
+        "studyType": "Certificate",
+        "startDate": "2022-02-01",
+        "endDate": "2022-12-01"
+      },
+      {
+        "institution": "Argentina Program",
+        "url": "https://www.argentina.gob.ar/economia/conocimiento/argentina-programa/",
+        "area": "Full Stack Developer",
+        "studyType": "Diplomatura",
+        "startDate": "2022-02-01",
+        "endDate": "2022-12-01"
+      }
+    ],
+    "awards": [
+      {
+        "title": "Award",
+        "date": "2014-11-01",
+        "awarder": "Company",
+        "summary": "There is no spoon."
+      }
+    ],
+    "certificates": [
+      {
+        "name": "Certificate",
+        "date": "2021-11-07",
+        "issuer": "Company",
+        "url": "https://certificate.com"
+      }
+    ],
+    "publications": [
+      {
+        "name": "Publication",
+        "publisher": "Company",
+        "releaseDate": "2014-10-01",
+        "url": "https://publication.com",
+        "summary": "Description…"
+      }
+    ],
+    "skills": [
+      {
+        "name": "HTML",
+        "level": "Master",
+        "keywords": ["Web Development", "Frontend"]
+      },
+      {
+        "name": "CSS",
+        "level": "Master",
+        "keywords": ["Web Development", "Frontend", "Responsive design"]
+      },
+      {
+        "name": "JavaScript",
+        "level": "Master",
+        "keywords": ["Web Development", "Frontend", "Backend", "Fullstack"]
+      },
+      {
+        "name": "Tailwind",
+        "level": "Advanced",
+        "keywords": [
+          "Web Development",
+          "Frontend",
+          "CSS Framework",
+          "Responsive design"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "level": "Advanced",
+        "keywords": [
+          "Web Development",
+          "Frontend",
+          "Backend",
+          "JavaScript Superset"
+        ]
+      },
+      {
+        "name": "Node",
+        "level": "Advanced",
+        "keywords": ["Web Development", "Backend", "JavaScript", "Server"]
+      },
+      {
+        "name": "Postgres",
+        "level": "Advanced",
+        "keywords": ["Database", "SQL", "Data Storage", "Backend"]
+      },
+      {
+        "name": "Git",
+        "level": "Advanced",
+        "keywords": ["Version control", "Collaboration", "Code Source"]
+      },
+      {
+        "name": "GitHub",
+        "level": "Advanced",
+        "keywords": ["Version control", "Collaboration", "Code Source", "Git"]
+      },
+      {
+        "name": "Next.js",
+        "level": "Advanced",
+        "keywords": [
+          "Web Development",
+          "Frontend",
+          "React Framework",
+          "SSR",
+          "Static Generation"
+        ]
+      },
+      {
+        "name": "React",
+        "level": "Advanced",
+        "keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"]
+      }
+    ],
+    "languages": [
+      {
+        "language": "Spanish",
+        "fluency": "Native speaker"
+      },
+      {
+        "language": "English",
+        "fluency": "Medium"
+      }
+    ],
+    "projects": [
+      {
+        "name": "Apple-Store",
+        "isActive": false,
+        "description": "Concept of online store for Apple products",
+        "highlights": ["Modern store", "User experience"],
+        "url": "https://maximiliano021.github.io/Apple-Store/",
+        "github": "https://github.com/Maximiliano021/Apple-Store"
+      },
+      {
+        "name": "Pro Gamer",
+        "isActive": false,
+        "description": "Online video games store",
+        "highlights": ["Dynamic store", "Games by category"],
+        "url": "https://progamer-omega.vercel.app/",
+        "github": "https://github.com/Maximiliano021/ProGamer"
+      }
+    ]
+  }
+}

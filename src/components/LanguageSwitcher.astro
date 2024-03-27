@@ -1,0 +1,29 @@
+---
+const { lang } = Astro.props;
+---
+
+<div class="flex justify-end no-print">
+  <button id="languageButton" class="button-name active:translate-y-px align items-center h-5 w-32 text-sm">
+    {lang === "en" ? "Language:" : "Idioma:"}&nbsp<label style="font-weight: 600"
+      >{lang === "en" ? "English" : "Español"}</label>
+  </button>
+</div>
+
+<script>
+  const button = document.getElementById("languageButton");
+  button?.addEventListener("click", () => {
+    const currentPath = window.location.pathname;
+    if (currentPath.startsWith("/en")) {
+      window.location.pathname = currentPath.replace("/en", "");
+    } else {
+      window.location.pathname = "/en";
+    }
+  });
+</script>
+
+<style>
+  .button-name:hover {
+    border-bottom: 2px solid black;
+  }
+
+</style>

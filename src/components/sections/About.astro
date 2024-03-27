@@ -1,0 +1,11 @@
+---
+import Section from "../Section.astro"
+const { basics, title } = Astro.props;
+const { summary } = basics;
+---
+
+<Section title={title}>
+  <p class="text-slate-800">
+    {summary}
+  </p>
+</Section>
