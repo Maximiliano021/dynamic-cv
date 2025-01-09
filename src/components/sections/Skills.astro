@@ -9,8 +9,12 @@ import Node from "../../icons/NODE.astro"
 import Git from "../../icons/GIT.astro"
 import GitHub from "../../icons/GitHub.astro"
 import Tailwind from "../../icons/TAILWIND.astro"
+import Redis from "../../icons/REDIS.astro"
 import Next from "../../icons/NEXT.astro"
 import Postgres from "../../icons/POSTGRES.astro"
+import Docker from "../../icons/DOCKER.astro"
+import Grafana from "../../icons/Grafana.astro"
+
 const { skills, title } = Astro.props;
 
 const SKILLS_ICONS: Record<string, any> = {
@@ -24,7 +28,10 @@ const SKILLS_ICONS: Record<string, any> = {
   Git,
   GitHub,
   Next,
-  Tailwind
+  Tailwind,
+  Redis,
+  Docker,
+  Grafana
 }
 ---
 
@@ -36,7 +43,7 @@ const SKILLS_ICONS: Record<string, any> = {
         const Icon = SKILLS_ICONS[iconName]
 
         return (
-          <li class="bg-gray-800 rounded-md text-white flex items-center gap-1 text-xs font-normal py-1 px-2">
+          <li class="bg-white rounded-md text-black flex items-center gap-1 text-xs font-normal py-1 px-2">
             {Icon && <Icon />} <span>{name}</span>
           </li>
         )

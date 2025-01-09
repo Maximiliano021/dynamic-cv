@@ -3,12 +3,12 @@
     "lang": "es",
     "basics": {
       "name": "Maximiliano Escudero",
-      "label": "Desarrollador FullStack y estudiante de Ingenieria Informatica",
+      "label": "Desarrollador Backend y estudiante de Ingenieria Informatica",
       "image": "/me.webp",
-      "email": "escuderomaximiliano@gmail.com",
+      "email": "escuderomaximiliano99@gmail.com",
       "phone": "+5491131546485",
       "url": "https://linkedin.com/in/escuderomaximiliano",
-      "summary": "Dedicado al desarrollo web como también al desarrollo de aplicaciones móviles. Vivo en Buenos Aires, Argentina. He trabajado siendo freelancer como Front-end, hasta creando arquitectura Back-end para un servicio de repartidores.",
+      "summary": "Soy Maximiliano Escudero, desarrollador web especializado en arquitectura backend. Me enfoco en el uso de tecnologías modernas y prácticas ágiles para mejorar la calidad del software. Disfruto trabajar en equipo y aplicar buenas prácticas de desarrollo.",
       "location": {
         "city": "Buenos Aires",
         "countryCode": "AR",
@@ -34,7 +34,7 @@
         "url": "https://www.fktech.net/es/",
         "startDate": "2023-06-15",
         "endDate": null,
-        "summary": "Desarrollé un monitor de operaciones en tiempo real y una API para consumir los datos de los repartidores, clientes y órdenes. Implemente la gestión a todos los usuarios backoffice con la facilidad de agregar repartidores y nuevos usuarios a su plataforma de una forma rápida y sencilla."
+        "summary": "Desarrollo y mantenimiento de un sistema de delivery para Arcos Dorados, implementando un monitoreo en tiempo real de las operaciones de los repartidores, optimizando el acceso a datos recurrentes mediante el manejo de caché e implementando funcionalidades para la gestión de usuarios."
       }
     ],
     "education": [
@@ -97,6 +97,41 @@
     ],
     "skills": [
       {
+        "name": "Node",
+        "level": "Avanzado",
+        "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+      },
+      {
+        "name": "TypeScript",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web",
+          "Frontend",
+          "Backend",
+          "JavaScript Superset"
+        ]
+      },
+      {
+        "name": "Docker",
+        "level": "Avanzado",
+        "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+      },
+      {
+        "name": "Redis",
+        "level": "Avanzado",
+        "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+      },
+      {
+        "name": "Postgres",
+        "level": "Avanzado",
+        "keywords": [
+          "Bases de Datos",
+          "SQL",
+          "Almacenamiento de Datos",
+          "Backend"
+        ]
+      },
+      {
         "name": "HTML",
         "level": "Master",
         "keywords": ["Desarrollo Web", "Frontend"]
@@ -112,56 +147,6 @@
         "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
       },
       {
-        "name": "Tailwind",
-        "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web",
-          "Frontend",
-          "CSS Framework",
-          "Diseño Responsive"
-        ]
-      },
-      {
-        "name": "TypeScript",
-        "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web",
-          "Frontend",
-          "Backend",
-          "JavaScript Superset"
-        ]
-      },
-      {
-        "name": "Node",
-        "level": "Avanzado",
-        "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
-      },
-      {
-        "name": "Postgres",
-        "level": "Avanzado",
-        "keywords": [
-          "Bases de Datos",
-          "SQL",
-          "Almacenamiento de Datos",
-          "Backend"
-        ]
-      },
-      {
-        "name": "Git",
-        "level": "Avanzado",
-        "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
-      },
-      {
-        "name": "GitHub",
-        "level": "Avanzado",
-        "keywords": [
-          "Control de Versiones",
-          "Colaboración",
-          "Código Fuente",
-          "Git"
-        ]
-      },
-      {
         "name": "Next.js",
         "level": "Avanzado",
         "keywords": [
@@ -173,9 +158,21 @@
         ]
       },
       {
-        "name": "React",
+        "name": "Git",
         "level": "Avanzado",
-        "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+        "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
+      },
+      {
+        "name": "Grafana",
+        "level": "Basico",
+        "keywords": [
+          "Dashboards",
+          "Alertas",
+          "Prometheus",
+          "Metricas",
+          "Logs",
+          "Análisis en Tiempo Real"
+        ]
       }
     ],
     "languages": [
