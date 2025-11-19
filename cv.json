@@ -8,7 +8,7 @@
       "email": "escuderomaximiliano99@gmail.com",
       "phone": "+5491131546485",
       "url": "https://linkedin.com/in/escuderomaximiliano",
-      "summary": "Soy Maximiliano Escudero, desarrollador web especializado en arquitectura backend. Me enfoco en el uso de tecnologías modernas y prácticas ágiles para mejorar la calidad del software. Disfruto trabajar en equipo y aplicar buenas prácticas de desarrollo.",
+      "summary": "Soy Maximiliano Escudero, desarrollador orientado al backend y a la construcción de sistemas bien estructurados. Me motiva entender a fondo los problemas, buscar soluciones eficientes y mantener un enfoque ordenado y consistente. Valoro el trabajo en equipo y los entornos donde se priorizan la mejora continua y la calidad del software.",
       "location": {
         "city": "Buenos Aires",
         "countryCode": "AR",
@@ -52,14 +52,6 @@
         "studyType": "Certificado",
         "startDate": "2022-02-01",
         "endDate": "2023-03-02"
-      },
-      {
-        "institution": "Coderhouse",
-        "url": "https://www.coderhouse.com/ar/certificados/633c82490a4b1f000e6803f5",
-        "area": "Desarrollador Frontend",
-        "studyType": "Certificado",
-        "startDate": "2022-02-01",
-        "endDate": "2022-12-01"
       },
       {
         "institution": "Argentina Programa",
