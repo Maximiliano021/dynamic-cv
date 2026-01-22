@@ -6,9 +6,9 @@
       "label": "FullStack Developer and Computer Engineering student",
       "image": "/me.webp",
       "email": "escuderomaximiliano99@gmail.com",
-      "phone": "+5401131546485",
+      "phone": "+5491131546485",
       "url": "https://linkedin.com/in/escuderomaximiliano",
-      "summary": "Dedicated to web development as well as mobile application development. I live in Buenos Aires, Argentina. I have worked as a freelancer as Front-end, even creating Back-end architecture for a delivery service.",
+      "summary": "I am passionate about learning new technologies, solving technical challenges, and adding real value to the products I work on. I am a collaborative, methodical, and curious person, and I enjoy working in teams that prioritize best practices and continuous improvement. I am always trying to optimize and understand how to make each system work a little better than yesterday.",
       "location": {
         "city": "Buenos Aires",
         "countryCode": "AR",
@@ -32,9 +32,17 @@
         "name": "FK-Tech",
         "position": "Backend Developer",
         "url": "https://www.fktech.net/es/",
-        "startDate": "2023-06-15",
+        "startDate": "2025-06-15",
         "endDate": null,
-        "summary": "I developed a real-time operations monitor and API to consume data from delivery drivers, customers and orders. Deploy management to all backoffice users with the facility to add carriers and new users to your platform quickly and easily."
+        "summary": "Maintenance of a centralized platform for managing and monitoring store operations and digital platforms in multiple countries for Flex Digital. I implemented dynamic database configurations (PostgreSQL/JSONB) to adapt business rules without the need for redeployment, integrated APIs and microservices for store and user management, and automated environments with Docker to ensure portability and scalability of deployments. Translated with DeepL.com (free version)"
+      },
+      {
+          "name": "FK-Tech",
+          "position": "Full Stack Developer",
+          "url": "https://www.fktech.net/es/",
+          "startDate": "2023-06-15",
+          "endDate": "2024-12-26",
+          "summary": "Development and maintenance of a delivery system for Arcos Dorados, implementing real-time monitoring of delivery operations, optimizing access to recurring data through cache management, and implementing ABM functionalities for user management."
       }
     ],
     "education": [
@@ -89,72 +97,60 @@
     ],
     "skills": [
       {
-        "name": "HTML",
-        "level": "Master",
-        "keywords": ["Web Development", "Frontend"]
-      },
-      {
-        "name": "CSS",
-        "level": "Master",
-        "keywords": ["Web Development", "Frontend", "Responsive design"]
-      },
-      {
-        "name": "JavaScript",
-        "level": "Master",
-        "keywords": ["Web Development", "Frontend", "Backend", "Fullstack"]
-      },
-      {
-        "name": "Tailwind",
-        "level": "Advanced",
-        "keywords": [
-          "Web Development",
-          "Frontend",
-          "CSS Framework",
-          "Responsive design"
-        ]
+        "name": "Node",
+        "level": "Avanzado",
+        "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
       },
       {
         "name": "TypeScript",
-        "level": "Advanced",
+        "level": "Avanzado",
         "keywords": [
-          "Web Development",
+          "Desarrollo Web",
           "Frontend",
           "Backend",
           "JavaScript Superset"
         ]
       },
       {
-        "name": "Node",
-        "level": "Advanced",
-        "keywords": ["Web Development", "Backend", "JavaScript", "Server"]
+        "name": "Docker",
+        "level": "Avanzado",
+        "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+      },
+      {
+        "name": "Redis",
+        "level": "Avanzado",
+        "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
       },
       {
         "name": "Postgres",
-        "level": "Advanced",
-        "keywords": ["Database", "SQL", "Data Storage", "Backend"]
-      },
-      {
-        "name": "Git",
-        "level": "Advanced",
-        "keywords": ["Version control", "Collaboration", "Code Source"]
-      },
-      {
-        "name": "Grafana",
-        "level": "Basic",
+        "level": "Avanzado",
         "keywords": [
-          "Dashboards",
-          "Alerts",
-          "Prometheus",
-          "Metrics",
-          "Logs",
-          "Real-Time Analysis"
+          "Bases de Datos",
+          "SQL",
+          "Almacenamiento de Datos",
+          "Backend"
         ]
       },
       {
+        "name": "HTML",
+        "level": "Master",
+        "keywords": ["Desarrollo Web", "Frontend"]
+      },
+      {
+        "name": "CSS",
+        "level": "Master",
+        "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
+      },
+      {
+        "name": "JavaScript",
+        "level": "Master",
+        "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+      },
+      {
         "name": "Next.js",
-        "level": "Advanced",
+        "level": "Avanzado",
         "keywords": [
-          "Web Development",
+          "Desarrollo Web",
           "Frontend",
           "React Framework",
           "SSR",
@@ -162,9 +158,21 @@
         ]
       },
       {
-        "name": "React",
-        "level": "Advanced",
-        "keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"]
+        "name": "Git",
+        "level": "Avanzado",
+        "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
+      },
+      {
+        "name": "Grafana",
+        "level": "Basico",
+        "keywords": [
+          "Dashboards",
+          "Alertas",
+          "Prometheus",
+          "Metricas",
+          "Logs",
+          "Análisis en Tiempo Real"
+        ]
       }
     ],
     "languages": [
