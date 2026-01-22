@@ -61,13 +61,13 @@ const profilesInfo = profiles.map(({ network, url }) => {
 </div>
 
 <div>
-  <div
+  <hot-key-pad
     id="hotkeypad"
     translate={lang == "en" ? "yes" : "no"}
     data-placeholder={lang == "en" ? "Search" : "Buscar"}
     data-info={JSON.stringify(profilesInfo)}
   >
-  </div>
+  </hot-key-pad>
 
   <script>
     interface Info {
@@ -80,9 +80,6 @@ const profilesInfo = profiles.map(({ network, url }) => {
       handler?: () => void;
     }
 
-    import { HotKeyPad } from "hotkeypad";
-
-    customElements.define("hot-key-pad", HotKeyPad);
     const el = document.querySelector<HTMLElement>("#hotkeypad");
 
     if (!el) return;
