@@ -80,13 +80,13 @@ const profilesInfo = profiles.map(({ network, url }) => {
       handler?: () => void;
     }
 
-    const el = document.querySelector<HTMLElement>("#hotkeypad");
+    import HotKeyPad from "hotkeypad";  
 
-    if (!el) return;
+    const hotkeypad = new HotKeyPad();
+    const info = hotkeypad.instance.getAttribute("data-info") ?? "[]";    
 
-    const info = el.getAttribute("data-info") ?? "[]";
     const parsedInfo = JSON.parse(info) as Info[];
-    const translate = el.getAttribute("translate");
+    const translate = hotkeypad.instance.getAttribute("translate");
     const titlePrint = translate === "yes" ? "Print" : "Imprimir";
     const titleSection = translate === "yes" ? "Actions" : "Acciones";
     const titleLanguage = translate === "yes" ? "Language" : "Idioma";

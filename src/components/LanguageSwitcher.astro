@@ -13,10 +13,10 @@ const { lang } = Astro.props;
   const button = document.getElementById("languageButton");
   button?.addEventListener("click", () => {
     const currentPath = window.location.pathname;
-    if (currentPath.startsWith("/en")) {
-      window.location.pathname = currentPath.replace("/en", "");
+    if (currentPath.startsWith("/dynamic-cv/en")) {
+      window.location.pathname = currentPath.replace("/dynamic-cv/en", "/dynamic-cv");
     } else {
-      window.location.pathname = "/en";
+      window.location.pathname = "/dynamic-cv/en";
     }
   });
 </script>
