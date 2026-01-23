@@ -7,6 +7,8 @@ import LinkedIn from "@/icons/LINKEDIN.astro";
 import GitHub from "@/icons/GitHub.astro";
 import WorldMap from "@/icons/WorldMap.astro";
 import type { SocialIcon } from "../../types";
+import heroImage from '@/assets/img.jpeg'
+
 const { basics } = Astro.props;
 
 const { name, label, location, profiles, phone, email } = basics;
@@ -89,7 +91,7 @@ const SOCIAL_ICONS: SocialIcon = {
     <figure>
       <img
         class="w-32 object-cover rounded-2xl aspect-square"
-        src="../../public/img.jpeg"
+        src={heroImage.src}
         alt={name}
       />
     </figure>
