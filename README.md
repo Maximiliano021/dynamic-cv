@@ -156,9 +156,5 @@ cv.json
 cv-en.json
 ```
 
-## Contribución y licencia
-- PRs y issues bienvenidos.
-- Licencia: especificar (por ejemplo, MIT) según tu preferencia.
-
 ## Autor
 - Maximiliano Escudero — Demo: https://maximiliano021.github.io/dynamic-cv/
