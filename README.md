@@ -2,6 +2,8 @@
 
 CV dinámico y reutilizable con soporte Español/Inglés, enlaces directos a plataformas (email, GitHub, LinkedIn y teléfono) y listo para imprimir en A4. Ideal para reclutadores, auto-uso y desarrolladores que quieran tener su portafolio personal con mínimos cambios.
 
+![image](https://github.com/user-attachments/assets/fb283f0e-f40e-4be9-b378-c0dbb8dbe686)
+
 - Demo: https://maximiliano021.github.io/dynamic-cv/
 - Stack: Astro, TypeScript, Tailwind CSS
 
@@ -153,10 +155,6 @@ astro.config.mjs
 cv.json
 cv-en.json
 ```
-
-## Contribución y licencia
-- PRs y issues bienvenidos.
-- Licencia: especificar (por ejemplo, MIT) según tu preferencia.
 
 ## Autor
 - Maximiliano Escudero — Demo: https://maximiliano021.github.io/dynamic-cv/
