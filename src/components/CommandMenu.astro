@@ -3,7 +3,7 @@ import "hotkeypad/reset.css";
 import "hotkeypad/index.css";
 import { type SocialIcon } from "@/types";
 import FOOTER from "@/icons/FOOTER.astro";
-const { lang, profiles } = Astro.props;
+const { lang, profiles, name } = Astro.props;
 
 const SOCIAL_ICONS: SocialIcon = {
   GitHub: `<svg
@@ -66,6 +66,7 @@ const profilesInfo = profiles.map(({ network, url }) => {
     translate={lang == "en" ? "yes" : "no"}
     data-placeholder={lang == "en" ? "Search" : "Buscar"}
     data-info={JSON.stringify(profilesInfo)}
+    data-name={name}
   >
   </hot-key-pad>
 
@@ -86,6 +87,7 @@ const profilesInfo = profiles.map(({ network, url }) => {
     const info = hotkeypad.instance.getAttribute("data-info") ?? "[]";    
 
     const parsedInfo = JSON.parse(info) as Info[];
+    const displayName = hotkeypad.instance.getAttribute("data-name") ?? "";
     const translate = hotkeypad.instance.getAttribute("translate");
     const titlePrint = translate === "yes" ? "Print" : "Imprimir";
     const titleSection = translate === "yes" ? "Actions" : "Acciones";
@@ -117,6 +119,7 @@ const profilesInfo = profiles.map(({ network, url }) => {
         hotkey: "ctrl+P",
         section: titleSection,
         handler: () => {
+          document.title = `CV - ${displayName}`;
           window.print();
         },
       },
