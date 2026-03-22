@@ -1,5 +1,6 @@
 ---
 import Section from "../Section.astro"
+import { getYearRange } from "@/utils/dates"
 const { education, title } = Astro.props;
 ---
 
@@ -7,10 +8,8 @@ const { education, title } = Astro.props;
   <ul class="flex gap-8 flex-col">
     {
       education.map(({ institution, startDate, endDate, area, url }) => {
-        const startYear = new Date(startDate).getFullYear()
-        const endYear = endDate != null ? new Date(endDate).getFullYear() : "Actual"
-        const years = startYear == null ? endYear : `${startYear} - ${endYear}`
-        
+        const years = getYearRange(startDate, endDate)
+
         return (
           <li>
             <article>
