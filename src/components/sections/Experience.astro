@@ -1,5 +1,6 @@
 ---
 import Section from "../Section.astro"
+import { getYearRange } from "@/utils/dates"
 const { work, title } = Astro.props;
 ---
 
@@ -8,10 +9,7 @@ const { work, title } = Astro.props;
     {
       work.map(
         ({ name, startDate, endDate, position, summary, url }) => {
-          const startYear = new Date(startDate).getFullYear()
-          const endYear =
-            endDate != null ? new Date(endDate).getFullYear() : "Actual"
-          const years = `${startYear} - ${endYear}`
+          const years = getYearRange(startDate, endDate)
 
           return (
             <li>
