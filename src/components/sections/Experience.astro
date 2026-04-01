@@ -1,14 +1,40 @@
 ---
 import Section from "../Section.astro"
 import { getYearRange } from "@/utils/dates"
+import HTML from "../../icons/HTML.astro"
+import CSS from "../../icons/CSS.astro"
+import JavaScript from "../../icons/JAVASCRIPT.astro"
+import TypeScript from "../../icons/TYPESCRIPT.astro"
+import Node from "../../icons/NODE.astro"
+import Git from "../../icons/GIT.astro"
+import Redis from "../../icons/REDIS.astro"
+import Next from "../../icons/NEXT.astro"
+import Postgres from "../../icons/POSTGRES.astro"
+import Docker from "../../icons/DOCKER.astro"
+import Grafana from "../../icons/Grafana.astro"
+
 const { work, title } = Astro.props;
+
+const SKILLS_ICONS: Record<string, any> = {
+  HTML,
+  CSS,
+  JavaScript,
+  TypeScript,
+  Node,
+  Postgres,
+  Git,
+  Next,
+  Redis,
+  Docker,
+  Grafana
+}
 ---
 
 <Section title={title}>
   <ul class="flex gap-8 flex-col">
     {
       work.map(
-        ({ name, startDate, endDate, position, summary, url }) => {
+        ({ name, startDate, endDate, position, summary, url, highlights }) => {
           const years = getYearRange(startDate, endDate)
 
           return (
@@ -29,6 +55,19 @@ const { work, title } = Astro.props;
 
                 <footer>
                   <p class="text-sm">{summary}</p>
+                  {highlights && highlights.length > 0 && (
+                    <ul class="inline-flex gap-2 flex-wrap mt-2">
+                      {highlights.map((skill: string) => {
+                        const iconName = skill === "Next.js" ? "Next" : skill
+                        const Icon = SKILLS_ICONS[iconName]
+                        return (
+                          <li class="bg-white rounded-md text-black flex items-center gap-1 text-xs font-normal py-1 px-2">
+                            {Icon && <Icon />} <span>{skill}</span>
+                          </li>
+                        )
+                      })}
+                    </ul>
+                  )}
                 </footer>
               </article>
             </li>

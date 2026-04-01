@@ -7,7 +7,6 @@ import Projects from "../components/sections/Projects.astro";
 import Hero from "../components/sections/Hero.astro";
 import CommandMenu from "../components/CommandMenu.astro";
 import { cv } from "../../cv.json";
-import Skills from "../components/sections/Skills.astro";
 import LanguageSwitcher from "../components/LanguageSwitcher.astro";
 const { lang, basics: { name } } = cv;
 ---
@@ -20,7 +19,6 @@ const { lang, basics: { name } } = cv;
     <Experience title="Experiencia" work={cv.work} />
     <Education title="Educación" education={cv.education} />
     <Projects title="Proyectos" projects={cv.projects} />
-    <Skills title="Habilidades" skills={cv.skills} />
   </main>
 
   <CommandMenu lang={lang} profiles={cv.basics.profiles} name={cv.basics.name}/>

@@ -34,7 +34,7 @@
         "url": "https://www.fktech.net/es/",
         "startDate": "2025-06-15",
         "endDate": null,
-        "summary": "Maintenance of a centralized platform for managing and monitoring store operations and digital platforms in multiple countries for Flex Digital. I implemented dynamic database configurations (PostgreSQL/JSONB) to adapt business rules without the need for redeployment, integrated APIs and microservices for store and user management, and automated environments with Docker to ensure portability and scalability of deployments. Translated with DeepL.com (free version)"
+        "summary": "Maintenance of a centralized platform for managing and monitoring store operations and digital platforms in multiple countries for Flex Digital. I implemented dynamic database configurations (PostgreSQL/JSONB) to adapt business rules without the need for redeployment, integrated APIs and microservices for store and user management, and automated environments with Docker to ensure portability and scalability of deployments."
       },
       {
           "name": "FK-Tech",

@@ -8,7 +8,7 @@
       "email": "escuderomaximiliano99@gmail.com",
       "phone": "+5491131546485",
       "url": "https://linkedin.com/in/escuderomaximiliano",
-      "summary": "Me apasiona aprender nuevas tecnologías, resolver desafíos técnicos y aportar valor real a los productos en los que participo. Soy una persona colaboradora, metódica y curiosa, disfruto en los equipos donde se priorizan las buenas prácticas y la mejora continua. Siempre intentando optimizar y entender como poder hacer funcionar cada sistema un poco mejor que el día de ayer",
+      "summary": "Me apasiona aprender nuevas tecnologías, resolver desafíos técnicos y aportar valor real a los productos en los que participo. Soy una persona colaboradora, metódica y curiosa, disfruto en los equipos donde se priorizan las buenas prácticas y la mejora continua. Siempre intentando optimizar y entender como poder hacer funcionar cada sistema un poco mejor que el día de ayer.",
       "location": {
         "city": "Buenos Aires",
         "countryCode": "AR",
@@ -32,17 +32,27 @@
         "name": "FK-Tech",
         "position": "Backend Developer",
         "url": "https://www.fktech.net/es/",
-        "startDate": "2025-06-15",
+        "startDate": "2025-01-01",
         "endDate": null,
-        "summary": "Mantenimiento de una plataforma centralizada para la gestión y monitoreo de operaciones de tiendas y plataformas digitales en múltiples países para Flex Digital. Implementé configuraciones dinámicas en base de datos (PostgreSQL/JSONB) para adaptar reglas de negocio sin necesidad de redeploy, integré APIs y microservicios para la administración de locales y usuarios, y automatizé entornos con Docker para asegurar la portabilidad y escalabilidad de los despliegues."
+        "summary": "Mantenimiento de una plataforma centralizada para la gestión y monitoreo de operaciones de tiendas y plataformas digitales en múltiples países para Flex Digital. Implementé configuraciones dinámicas en base de datos (PostgreSQL/JSONB) para adaptar reglas de negocio sin necesidad de redeploy, integré APIs y microservicios para la administración de locales y usuarios, y automatizé entornos con Docker para asegurar la portabilidad y escalabilidad de los despliegues.",
+        "highlights": ["Node", "TypeScript", "Docker", "Redis", "Postgres", "Grafana", "Git"]
       },
       {
           "name": "FK-Tech",
           "position": "Full Stack Developer",
           "url": "https://www.fktech.net/es/",
-          "startDate": "2023-06-15",
-          "endDate": "2024-12-26",
-          "summary": "Desarrollo y mantenimiento de un sistema de delivery para Arcos Dorados, implementando un monitoreo en tiempo real de las operaciones de los repartidores, optimizando el acceso a datos recurrentes mediante el manejo de caché e implementando funcionalidades ABM para la gestión de usuarios."
+          "startDate": "2023-06-01",
+          "endDate": "2024-12-01",
+          "summary": "Desarrollo y mantenimiento de un sistema de delivery para Arcos Dorados, implementando un monitoreo en tiempo real de las operaciones de los repartidores, optimizando el acceso a datos recurrentes mediante el manejo de caché e implementando funcionalidades ABM para la gestión de usuarios.",
+          "highlights": ["Node", "TypeScript", "HTML", "CSS", "JavaScript", "Next.js", "Git"]
+      },
+      {
+          "name": "Freelance",
+          "position": "Backend Developer",
+          "startDate": "2022-11-01",
+          "endDate": "2023-04-01",
+          "summary": "Colabore en el desarrollo de una plataforma para la busqueda laboral para desarrolladores, seguimiento de procesos con recruiters y generacion de mensajes personalizados.",
+          "highlights": ["Node", "JavaScript", "Grafana", "Postgres"]
       }
     ],
     "education": [
